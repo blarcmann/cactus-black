@@ -1,0 +1,128 @@
+body {
+  background-color: #EDEDED;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFF;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 24px;
+  box-shadow: 2px 4px 10px #d4d5d7;
+}
+
+.sidebar {
+  width: 12vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #FFF;
+  box-shadow: 4px 4px 8px #d4d5d7;
+}
+
+.main-content-container {
+  display: flex;
+  padding-top: 60px;
+}
+
+.content {
+  margin-left: 12vw;
+  width: calc(100vw - 12vw);
+  padding: 40px;
+  padding-bottom: 0;
+}
+
+.top-cards {
+  display: flex;
+}
+
+.card {
+  width: 30%;
+  margin-right: 3%;
+  height: 240px;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #CCC;
+  background-color: #FFF;
+}
+
+@media(max-width: 1024px) {
+  .top-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 480px) {
+  .card {
+    width: 94%;
+    margin-right: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* min-width & max-width */
+
+@media(min-width: 1280px) {}  /* 1280px and above */
+
+
+@media(max-width: 1280px) {}  /* 1280px and below */
+
+/* 768px - sidebar should show */
+/* 767px - hide sidebar and show sidebar toggle */
+
+
+/* media queries */
+
+/* BIG SCREENS */
+/* 920px */
+/* 1024px */
+/* 1280px */
+/* 1440px - not necessary */
+
+
+/* TABLETS */
+/* 920px */
+/* 876px */
+/* 768px - very important */
+
+/* MOBILE */
+/* 540px */
+/* 320px - unnatural */
